@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.holder {
+	max-width: 960px;
+	width: 90%;
+	min-width: 320px;
+	margin: 0 auto;
+}
+.wide_holder {
+	max-width: 1201px;
+}
+.clearfix:after {
+	content: "";
+	height: 0;
+	clear: both;
+	display: block;
+}
+.icon {
+    background-image: url(../image/icon.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.icon-brief {
+    width: 22px;
+    height: 20px;
+    background-position: -5px -5px;
+}
+
+.icon-checkbox {
+    width: 22px;
+    height: 22px;
+    background-position: -37px -5px;
+}
+
+.icon-checkmark-active {
+    width: 21px;
+    height: 21px;
+    background-position: -69px -5px;
+}
+
+.icon-email {
+    width: 17px;
+    height: 13px;
+    background-position: -100px -5px;
+}
+
+.icon-email-2 {
+    width: 23px;
+    height: 17px;
+    background-position: -127px -5px;
+}
+
+.icon-facebook {
+    width: 10px;
+    height: 22px;
+    background-position: -160px -5px;
+}
+
+.icon-facebook:hover {
+    background-position: -180px -5px;
+}
+
+.icon-file {
+    width: 16px;
+    height: 21px;
+    background-position: -200px -5px;
+}
+.icon-graduate {
+    width: 28px;
+    height: 19px;
+    background-position: -304px -5px;
+}
+
+.icon-img {
+    width: 21px;
+    height: 21px;
+    background-position: -342px -5px;
+}
+
+.icon-key {
+    width: 22px;
+    height: 20px;
+    background-position: -373px -5px;
+}
+
+.icon-locked {
+    width: 19px;
+    height: 22px;
+    background-position: -405px -5px;
+}
+
+.icon-school {
+    width: 22px;
+    height: 22px;
+    background-position: -434px -5px;
+}
+
+.icon-skype {
+    width: 20px;
+    height: 20px;
+    background-position: -466px -5px;
+}
+
+.icon-telephone {
+    width: 17px;
+    height: 22px;
+    background-position: -496px -5px;
+}
+.icon-unlocked {
+    width: 24px;
+    height: 22px;
+    background-position: -591px -5px;
+}
+
+

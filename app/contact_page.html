@@ -48,13 +48,13 @@
 		<div class="wrapper holder clearfix">
 			<aside class="aside">
 				<nav class="sidebar">
-					<li class="sidebar_item active">
+					<li class="sidebar_item">
 						<a href="index.html" class="sidebar_link" title="Обо мне">Обо мне</a>
 					</li>
 					<li class="sidebar_item">
 						<a href="portfolio_page.html" class="sidebar_link" title="Мои Работы">Мои Работы</a>
 					</li>
-					<li class="sidebar_item">
+					<li class="sidebar_item active">
 						<a href="contact_page.html" class="sidebar_link" title="Обратная связь">Обратная связь</a>
 					</li>
 				</nav>
@@ -84,79 +84,40 @@
 			</aside>
 			<main class="main">
 				<section class="main_section">
-					<h2 class="main_title">Основная информация</h2>
-					<div class="about clearfix">
-						<div class="about_avatar">
-							<div class="avatar_holder"><img src="image/avatar.jpg" alt="avatar"></div>
+					<h2 class="main_title">У вас интересный проект? Напишите мне</h2>
+					<form action="#" class="contact_form">
+						<div class="form_row name">
+							<label for="#name" class="form_label">Имя</label>
+							<div class="input_holder">
+								<input type="text" id="name" class="text_input name" placeholder="Как к Вам обращаться">
+								<span class="form_error">введите имя</span>
+							</div>
 						</div>
-						<div class="about_worksheet">
-							<ul class="worksheet_list">
-								<li class="worksheet_item">
-									<span class="worksheet_what">Меня зовут:</span>
-									<span class="worksheet_info">Иванов Андрей Степанович</span>
-								</li>
-								<li class="worksheet_item">
-									<span class="worksheet_what">Мой возраст:</span>
-									<span class="worksheet_info">25 лет</span>
-								</li>
-								<li class="worksheet_item">
-									<span class="worksheet_what">Мой город:</span>
-									<span class="worksheet_info">Санкт-Петербург, Россия</span>
-								</li>
-								<li class="worksheet_item">
-									<span class="worksheet_what">Моя специализация:</span>
-									<span class="worksheet_info">FRONTEND разработчик</span>
-								</li>
-								<li class="worksheet_item skils">
-									<span class="worksheet_what">Ключевые навыки:</span>
-								</li>
-							</ul>
+						<div class="form_row email">
+							<label for="#email" class="form_label">Email</label>
+							<div class="input_holder">
+								<input type="email" id="email" class="text_input email" placeholder="Куда мне писать">
+								<span class="form_error">введите email</span>
+							</div>
 						</div>
-					</div>
-				</section>
-				<section class="main_section">
-					<h2 class="main_title">Опыт работы</h2>
-					<div class="experience_box">
-						<ul class="experience_list">
-							<li class="experience_item job">
-								<i class="icon icon-job"></i>
-								<span class="where">"ИП Боровицкий" - Продавец дисков</span>
-								<span class="period">Сентябрь 2005 - Август 2008</span>
-							</li>
-							<li class="experience_item job">
-								<i class="icon icon-job"></i>
-								<span class="where">"ООО Системы безопастности" - Системный администратор</span>
-								<span class="period">Июнь 2008 - Июль 2010</span>
-							</li>
-							<li class="experience_item job">
-								<i class="icon icon-job"></i>								
-								<span class="where">"Магнит, Розничная сеть" - Ведущий аналитик по внедрению Oracle Web Center</span>
-								<span class="period">Август 2011 - Октябрь 2012</span>
-							</li>
-						</ul>
-					</div>
-				</section>
-				<section class="main_section">
-					<h2 class="main_title">Образование</h2>
-					<div class="experience_box">
-						<ul class="experience_list">
-							<li class="experience_item school">
-								<i class="icon icon-school"></i>
-								<span class="where">Полное среднее. Физико-математический лицей № 30</span>
-								<span class="period">1994 - 2004</span>
-							</li>
-							<li class="experience_item graduate">
-								<i class="icon icon-graduate"></i>
-								<span class="where">Незаконченное высшее. СПБГУ ИТМО</span>
-								<span class="period">Октябрь 2012 - по настоящее время</span>
-							</li>
-							<li class="experience_item file">
-								<i class="icon icon-file"></i>								
-								<span class="where">Курсы Loftschool.ru</span>
-								<span class="period">Ноябрь 2014 - по настоящее время</span>
-							</li>
-						</ul>
-					</div>
+						<div class="form_row message">
+							<label for="#massage" class="form_label"></label>
+							<div class="input_holder">
+								<textarea name="massage" id="message" class="message_textarea" placeholder="Кратко в чем суть"></textarea>
+								<span class="form_error">ваш вопрос</span>
+							</div>
+						</div>
+						<div class="form_row captcha">
+							<label for="#captcha" class="form_label">Введите код, указанный на картинке</label>
+							<div class="captcha_holder"><img src="" alt=""></div>
+							<div class="input_holder">
+								<input type="text" id="captha" class="text_input captcha" placeholder="Введите код">
+								<span class="form_error">код капчи</span>
+							</div>
+						</div>
+						<button class="form_btn grean">Отправить</button>
+						<button class="form_btn white">Очистить</button>
+					</form>
 				</section>
 			</main>
 		</div>

@@ -22,18 +22,6 @@
     background-repeat: no-repeat;
     display: inline-block;
 }
-.icon-checkbox {
-    width: 22px;
-    height: 22px;
-    background-position: -37px -5px;
-}
-
-.icon-checkmark-active {
-    width: 21px;
-    height: 21px;
-    background-position: -69px -5px;
-}
-
 .icon-email {
     width: 17px;
     height: 13px;

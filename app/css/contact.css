@@ -1,0 +1,49 @@
+@import"main.css";
+.contact_form {
+	padding: 31px 18.7%;
+}
+.form_row.name {
+	margin-right: 3.3%;
+	width: 47.9%;
+}
+.form_row.email {
+	width: 47.5%;
+}
+.form_row.message {
+	width: 100%;
+	margin-bottom: 8px;
+}
+.message_textarea {
+	resize: none;
+	height: 183px;
+}
+.form_row.captcha {
+	width: 100%;
+	margin-bottom: 27px;
+}
+.form_row.captcha .input_holder{
+	display: inline-block;
+	vertical-align: top;
+	width: 47.3%;
+    margin-top: 21px;
+}
+.text_input.captcha {
+    padding: 0.5em 0.8em 0.8em;
+}
+.captcha_holder {
+	border: 1px solid #d6d4d3;
+	border-radius: 4px;
+	box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.35);
+	overflow: hidden;
+	display: inline-block;
+    margin-right: 4.3%;
+}
+.captcha_holder img {
+	vertical-align: top;
+}
+.contact_form .form_btn {
+    margin: 0 7.4%;
+}
+.contact_form .form_btn.white{
+    margin-left: 15.4%;
+}

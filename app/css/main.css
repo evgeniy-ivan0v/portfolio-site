@@ -1,8 +1,4 @@
 @import "base.css";
-/*@import "about.css";
-@import "progect.css";
-@import "contact.css";
-@import "login.css";*/
 
 html, body {
 	width: 100%;
@@ -61,6 +57,7 @@ body {
 	background-image: -moz-linear-gradient( 90deg, rgb(233,230,228) 0%, rgb(251,249,249) 94%, rgb(255,255,255) 100%);
 	background-image: -webkit-linear-gradient( 90deg, rgb(233,230,228) 0%, rgb(251,249,249) 94%, rgb(255,255,255) 100%);
 	background-image: -ms-linear-gradient( 90deg, rgb(233,230,228) 0%, rgb(251,249,249) 94%, rgb(255,255,255) 100%);
+	background-image: linear-gradient( 90deg, rgb(233,230,228) 0%, rgb(251,249,249) 94%, rgb(255,255,255) 100%);
 	box-shadow: 0px 2px 1px 0px rgba(9, 9, 9, 0.31), inset 0px -2px 3px 0px rgba(41, 41, 41, 0.05);
 	width: 36px;
 	height: 36px;
@@ -138,6 +135,7 @@ body {
   	border-bottom: none;
 	background-image: -moz-linear-gradient(top,  #ffffff 0%, #fbf9f9 6%, #e9e6e5 100%), -moz-linear-gradient(top,  #d2d2d2 0%, #b6b6b6 49%, #c5c5c5 100%);
 	background-image: -webkit-linear-gradient(top,  #ffffff 0%,#fbf9f9 6%,#e9e6e5 100%), -webkit-linear-gradient(top,  #d2d2d2 0%,#b6b6b6 49%,#c5c5c5 100%);
+	background-image: -ms-linear-gradient(to bottom,  #ffffff 0%,#fbf9f9 6%,#e9e6e5 100%), -ms-linear-gradient(to bottom,  #d2d2d2 0%,#b6b6b6 49%,#c5c5c5 100%);
 	background-image: linear-gradient(to bottom,  #ffffff 0%,#fbf9f9 6%,#e9e6e5 100%), linear-gradient(to bottom,  #d2d2d2 0%,#b6b6b6 49%,#c5c5c5 100%);
 }
 .sidebar_item:first-child .sidebar_link{
@@ -151,6 +149,7 @@ body {
 	box-shadow: 0px 2px 1px 0px rgba(9, 9, 9, 0.07), inset 0 0 3px rgba(202,202,202,0.6), inset 0px -2px 3px 0px rgba(41, 41, 41, 0.05);
 	background-image: -moz-linear-gradient(top,  #e8e7e7 0%, #e3e1e1 13%, #c2c0c0 100%), -moz-linear-gradient(top,  #d2d2d2 0%, #b6b6b6 49%, #c5c5c5 100%);
 	background-image: -webkit-linear-gradient(top,  #e8e7e7 0%,#e3e1e1 13%,#c2c0c0 100%), -webkit-linear-gradient(top,  #d2d2d2 0%,#b6b6b6 49%,#c5c5c5 100%);
+	background-image: -ms-linear-gradient(to bottom,  #e8e7e7 0%,#e3e1e1 13%,#c2c0c0 100%), -ms-linear-gradient(to bottom,  #d2d2d2 0%,#b6b6b6 49%,#c5c5c5 100%);
 	background-image: linear-gradient(to bottom,  #e8e7e7 0%,#e3e1e1 13%,#c2c0c0 100%), linear-gradient(to bottom,  #d2d2d2 0%,#b6b6b6 49%,#c5c5c5 100%);
 }
 .sidebar_item.active .sidebar_link, .sidebar_item.active:hover .sidebar_link{
@@ -158,21 +157,25 @@ body {
 	box-shadow: 0px 2px 1px 0px rgba(9, 9, 9, 0.16), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.3);
 	background-image: -moz-linear-gradient(top,  #7ee8ce 0%, #3eb799 100%), -moz-linear-gradient(top,  #66dbbe 0%, #41ac91 49%, #2fa185 100%);
 	background-image: -webkit-linear-gradient(top,  #7ee8ce 0%,#3eb799 100%), -webkit-linear-gradient(top,  #66dbbe 0%,#41ac91 49%,#2fa185 100%);
+	background-image: -ms-linear-gradient(to bottom,  #7ee8ce 0%,#3eb799 100%), -ms-linear-gradient(to bottom,  #66dbbe 0%,#41ac91 49%,#2fa185 100%);
 	background-image: linear-gradient(to bottom,  #7ee8ce 0%,#3eb799 100%), linear-gradient(to bottom,  #66dbbe 0%,#41ac91 49%,#2fa185 100%);
 }
 .contact_title {
-	margin: 0;
-	padding: 8px 27px;
-	background-origin: padding-box, border-box;
-	background-clip: padding-box, border-box;
-	border: 1px solid transparent;
-  	color: #d0982c;
-  	text-shadow: 0 -1px 0 rgba(173,135,56,0.9), 0px 1px 0px rgba(255, 255, 255, 0.4);
-  	border-radius: 5px 5px 0 0;
-	box-shadow: 0px 2px 1px 0px rgba(9, 9, 9, 0.17), inset 0 0 3px rgba(246,247,247,0.15), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.25);
-	background-image: -moz-linear-gradient(top,  #f4cc7e 10%, #dcb15d 100%),  -moz-linear-gradient(top,  #e7bf6f 10%, #cea34e 56%, #caa152 100%);
-	background-image: -webkit-linear-gradient(top,  #f4cc7e 10%,#dcb15d 100%),  -webkit-linear-gradient(top,  #e7bf6f 10%,#cea34e 56%,#caa152 100%);
-	background-image: linear-gradient(to bottom,  #f4cc7e 10%,#dcb15d 100%),  linear-gradient(to bottom,  #e7bf6f 10%,#cea34e 56%,#caa152 100%);
+	font-weight: 500;
+    margin: 0;
+    font-size: 1.3em;
+    padding: 8px 27px;
+    background-origin: padding-box, border-box;
+    background-clip: padding-box, border-box;
+    border: 1px solid transparent;
+    color: #d0982c;
+    text-shadow: 0 -1px 0 rgba(172,120,29,0.9), 0px 0.5px 0px rgba(255, 255, 255, 0.4);
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0px 2px 1px 0px rgba(9, 9, 9, 0.17), inset 0 0 3px rgba(246,247,247,0.15), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.25);
+    background-image: -moz-linear-gradient(top, #f4cc7e 10%, #dcb15d 100%), -moz-linear-gradient(top, #e7bf6f 10%, #cea34e 56%, #caa152 100%);
+    background-image: -webkit-linear-gradient(top, #f4cc7e 10%,#dcb15d 100%), -webkit-linear-gradient(top, #e7bf6f 10%,#cea34e 56%,#caa152 100%);
+    background-image: -ms-linear-gradient(to bottom, #f4cc7e 10%,#dcb15d 100%), -ms-linear-gradient(to bottom, #e7bf6f 10%,#cea34e 56%,#caa152 100%);
+    background-image: linear-gradient(to bottom, #f4cc7e 10%,#dcb15d 100%), linear-gradient(to bottom, #e7bf6f 10%,#cea34e 56%,#caa152 100%);
 
 }
 .contact_list {
@@ -189,6 +192,7 @@ body {
 	background: #fbfbfb;
 	background: -moz-linear-gradient(top,  #fbfbfb 0%, #f4f3f2 100%);
 	background: -webkit-linear-gradient(top,  #fbfbfb 0%,#f4f3f2 100%);
+	background: -ms-linear-gradient(to bottom,  #fbfbfb 0%,#f4f3f2 100%);
 	background: linear-gradient(to bottom,  #fbfbfb 0%,#f4f3f2 100%);
 	border: 1px solid #d6d5d3;
 	border-bottom: none;
@@ -215,6 +219,7 @@ body {
 	background: #ffffff;
 	background: -moz-linear-gradient(top,  #ffffff 0%, #f2e7d0 100%);
 	background: -webkit-linear-gradient(top,  #ffffff 0%,#f2e7d0 100%);
+	background: -ms-linear-gradient(to bottom,  #ffffff 0%,#f2e7d0 100%);
 	background: linear-gradient(to bottom,  #ffffff 0%,#f2e7d0 100%);
 	box-shadow: 0 0 0 1px rgba(255,255,255,0.15), 0px 1px 0px 0px rgba(255, 255, 255, 0.35), inset 0px 2px 2px 0px rgba(114, 112, 112, 0.1);
 }
@@ -244,15 +249,16 @@ body {
 	border-radius: 5px;
 	background-origin: padding-box, border-box;
 	background-clip: padding-box, border-box;
-	box-shadow: 0px 5px 10px 0px rgba(236, 232, 227, 0.75), inset 0px 6px 6px 0px rgba(255, 255, 255, 0.004);
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.07), inset 0px 6px 6px 0px rgba(255, 255, 255, 0.004);
 	background-image: -moz-linear-gradient(top,  #f8f7f6 0%, #f0eeed 100%), -moz-linear-gradient(top,  #d2d2d2 0%, #b6b6b6 49%, #c5c5c5 100%);
 	background-image: -webkit-linear-gradient(top,  #f8f7f6 0%, #f0eeed 100%), -webkit-linear-gradient(top,  #d2d2d2 0%,#b6b6b6 49%,#c5c5c5 100%);
+	background-image: -ms-linear-gradient(top,  #f8f7f6 0%, #f0eeed 100%), -ms-linear-gradient(to bottom,  #d2d2d2 0%,#b6b6b6 49%,#c5c5c5 100%);
 	background-image: linear-gradient(top,  #f8f7f6 0%, #f0eeed 100%), linear-gradient(to bottom,  #d2d2d2 0%,#b6b6b6 49%,#c5c5c5 100%);
 }
 .main_title {
 	padding: 7px 41px 13px;
-    font-weight: 500;
-    font-size: 1.56em;
+    font-weight: 600;
+    font-size: 1.5em;
 	border-radius: 5px 5px 0 0;
 	margin: -1px -1px 0;
 	border: 1px solid transparent;
@@ -261,9 +267,13 @@ body {
 	color: #eeedec;
 	background-image: -moz-linear-gradient(top,  #a9a8a8 0%, #7b7878 100%), -moz-linear-gradient(top,  #9c9c9c 0%, #6d6d6d 43%, #636363 100%);
 	background-image: -webkit-linear-gradient(top,  #a9a8a8 0%,#7b7878 100%), -webkit-linear-gradient(top,  #9c9c9c 0%,#6d6d6d 43%,#636363 100%);
-	background-image: trans, linear-gradient(to bottom,  #9c9c9c 0%,#6d6d6d 43%,#636363 100%);
+	background-image: -ms-linear-gradient(top,  #a9a8a8 0%,#7b7878 100%), -ms-linear-gradient(top,  #9c9c9c 0%,#6d6d6d 43%,#636363 100%);
+	background-image: linear-gradient(top,  #a9a8a8 0%,#7b7878 100%), linear-gradient(top,  #9c9c9c 0%,#6d6d6d 43%,#636363 100%);
 	text-shadow: 0px 1px 0px rgba(102, 101, 101, 0.7);
 	box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.3);
+}
+.main_title.less {
+	font-weight: 500;
 }
 .footer {
 	position: relative;
@@ -271,6 +281,7 @@ body {
 	background: #fff;
 	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(240,240,240,1) 100%);
 	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
+	background: -ms-linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
 	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
 	border-top: 1px solid rgba(0,0,0,0.1);
 }

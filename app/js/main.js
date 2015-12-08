@@ -1,9 +1,10 @@
 function formChek () {
 	this.elem = elem = document.getElementsByTagName("form");
 	console.dir(elem)
-	// elem.addEventListener('click', function () {
-
-	// 	console.log("fvfv");
-	// });
+	elem.forEach(function (item){
+		item.addEventListener('submit', function () {
+			console.log(this);
+		})
+	});
 };
 var formChek = new formChek();

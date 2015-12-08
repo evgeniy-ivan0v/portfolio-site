@@ -252,7 +252,7 @@ body {
 	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.07), inset 0px 6px 6px 0px rgba(255, 255, 255, 0.004);
 	background-image: -moz-linear-gradient(top,  #f8f7f6 0%, #f0eeed 100%), -moz-linear-gradient(top,  #d2d2d2 0%, #b6b6b6 49%, #c5c5c5 100%);
 	background-image: -webkit-linear-gradient(top,  #f8f7f6 0%, #f0eeed 100%), -webkit-linear-gradient(top,  #d2d2d2 0%,#b6b6b6 49%,#c5c5c5 100%);
-	background-image: -ms-linear-gradient(top,  #f8f7f6 0%, #f0eeed 100%), -ms-linear-gradient(to bottom,  #d2d2d2 0%,#b6b6b6 49%,#c5c5c5 100%);
+	background-image: -ms-linear-gradient(top,  #f8f7f6 0%, #f0eeed 100%);
 	background-image: linear-gradient(top,  #f8f7f6 0%, #f0eeed 100%), linear-gradient(to bottom,  #d2d2d2 0%,#b6b6b6 49%,#c5c5c5 100%);
 }
 .main_title {

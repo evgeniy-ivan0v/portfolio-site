@@ -21,6 +21,9 @@
 	width: 100%;
 	margin-bottom: 27px;
 }
+.form_row.captcha .form_error.right {
+	right: -87px;
+}
 .form_row.captcha .input_holder{
 	display: inline-block;
 	vertical-align: top;

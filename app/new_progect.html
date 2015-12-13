@@ -1,0 +1,42 @@
+
+<div class="new_progect">
+	<a href="#" class="close_link">close</a>
+	<span class="new_progect_title">Добавление проекта</span>
+	<form action="" class="progect_form">
+		<div class="form_row progect_name">
+			<label for="progect_name" class="form_label">Название проекта</label>
+			<div class="input_holder">
+				<input type="text" id="progect_name" class="input progect_name" placeholder="Введите название">
+				<span class="form_error">введите название</span>
+			</div>
+		</div>
+		<div class="form_row progect_img">
+			<label for="input_file" class="form_label">Картинка проекта</label>
+			<div class="input_holder">
+				<div class="input_file_holder">
+					<div class="input_file_text" data-text="Добавьте картинку">Добавьте картинку</div>
+					<div class="select_button">Обзор</div>
+					<input type="file" name="upload" id="input_file" class=" input_file progect_img">
+				</div>
+				<span class="form_error">изображение</span>
+			</div>
+		</div>
+		<div class="form_row progect_url">
+			<label for="progect_url" class="form_label">URL проекта</label>
+			<div class="input_holder">
+				<input type="url" id="progect_url" class="input progect_url" placeholder="Добавьте ссылку">
+				<span class="form_error">ссылка на проект</span>
+			</div>
+		</div>
+		<div class="form_row progect_description">
+			<label for="progect_description" class="form_label">Описание</label>
+			<div class="input_holder">
+				<textarea id="progect_description" class="textarea progect_description" placeholder="Пара слов о Вашем проекте"></textarea>
+				<span class="form_error">описание проекта</span>
+			</div>
+		</div>
+		<div class="form_row btn_row">
+			<input type="submit" value="Добавить" class="form_btn grean">
+		</div>
+	</form>
+</div>

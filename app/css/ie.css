@@ -149,3 +149,23 @@
 .checkbox_input + label {
 	display: none !important;
 }
+.form_error {
+	background-color: #EA9578;
+	top: 50%;
+	margin-top: -0.8em;
+}
+.form_error:before {
+	display: none;
+}
+.progect_form {
+	background-color: #F6F5F4;
+}
+.select_button {
+	border-color: #c5c5c5;
+	background-color: #F7F5F4;
+	text-align: center;
+}
+.select_button:before {
+	margin-top: -0.8em;
+	margin-left: -0.8em;
+}

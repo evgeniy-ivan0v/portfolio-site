@@ -94,36 +94,36 @@
 					<h2 class="main_title less">У вас интересный проект? Напишите мне</h2>
 					<form action="#" class="contact_form">
 						<div class="form_row name">
-							<label for="#name" class="form_label">Имя</label>
+							<label for="name" class="form_label">Имя</label>
 							<div class="input_holder">
 								<input type="text" id="name" class="text_input input name" placeholder="Как к Вам обращаться">
 								<span class="form_error">введите имя</span>
 							</div>
 						</div>
 						<div class="form_row email">
-							<label for="#email" class="form_label">Email</label>
+							<label for="email" class="form_label">Email</label>
 							<div class="input_holder">
 								<input type="email" id="email" class="text_input input email" placeholder="Куда мне писать">
-								<span class="form_error">введите email</span>
+								<span class="form_error right">введите email</span>
 							</div>
 						</div>
 						<div class="form_row message">
-							<label for="#massage" class="form_label">Сообщение</label>
+							<label for="massage" class="form_label">Сообщение</label>
 							<div class="input_holder">
 								<textarea name="massage" id="message" class="message_textarea textarea" placeholder="Кратко в чем суть"></textarea>
 								<span class="form_error">ваш вопрос</span>
 							</div>
 						</div>
 						<div class="form_row captcha">
-							<label for="#captcha" class="form_label">Введите код, указанный на картинке</label>
+							<label for="captcha" class="form_label">Введите код, указанный на картинке</label>
 							<div class="captcha_holder"><img src="image/captcha.jpg" height="77" width="189" alt=""></div>
 							<div class="input_holder">
 								<input type="text" id="captha" class="text_input input captcha" placeholder="Введите код">
-								<span class="form_error">код капчи</span>
+								<span class="form_error right">код капчи</span>
 							</div>
 						</div>
 						<input type="submit" value="Отправить" class="form_btn grean">
-						<input type="reset" value="Очистить" class="form_btn white">
+						<input type="reset" value="Очистить" class="form_btn white reset_btn">
 					</form>
 				</section>
 			</main>
@@ -135,8 +135,11 @@
 			<div class="copyright">&copy; 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его!</div>
 		</div>
 	</footer>
+	<script src="js/polyfill.js"></script>
 	<script src="bower/jquery/dist/jquery.min.js"></script>
 	<script src="bower/placeholders/dist/placeholders.jquery.min.js"></script>
+	<script src="js/form_chek.js"></script>
+	<script src="js/contactFormModule.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>

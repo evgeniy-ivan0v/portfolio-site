@@ -26,21 +26,20 @@
 					<div class="input_holder arrow">
 						<i class="icon icon-email-2"></i>
 						<input type="email" id="login_email" class="login_email_input input" placeholder="Введите Email">
-						<span class="form_error"></span>
+						<span class="form_error">введите имя</span>
 					</div>
 				</div>
 				<div class="form_row login_password">
 					<div class="input_holder arrow">
 						<i class="icon icon-key"></i>
 						<input type="password" id="login_password" class="login_password_input input" placeholder="Введите пароль">
-						<span class="form_error"></span>
+						<span class="form_error">введите пароль</span>
 					</div>
 				</div>
 				<div class="form_row login_remember">
 					<div class="input_holder">
 						<input type="checkbox" id="login_remember" class="login_remember_input checkbox_input" hidden name="remember">
 						<label for="login_remember" class="form_label hidden_label">Запомнить меня?</label>
-						<span class="form_error"></span>
 					</div>
 					<label for="login_remember" class="form_label">Запомнить меня?</label>
 				</div>
@@ -57,7 +56,10 @@
 			<div class="copyright">&copy; 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его!</div>
 		</div>
 	</footer>
+	<script src="js/polyfill.js"></script>
 	<script src="bower/jquery/dist/jquery.min.js"></script>
 	<script src="bower/placeholders/dist/placeholders.jquery.min.js"></script>
+	<script src="js/form_chek.js"></script>
+	<script src="js/loginFormModule.js"></script>
 </body>
 </html>
